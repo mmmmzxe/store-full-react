@@ -1,0 +1,480 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+.home{
+
+
+display: flex;
+
+margin: 30px;
+justify-content: center;
+align-items: center;
+text-align: start;
+}
+.text-home{
+width: 50%;
+  display: block;
+  justify-content: center;
+
+}
+.img-home{
+width: 50%;
+}
+.img-home img{
+width: 100%;
+}
+.Shop{
+  background: #FFC727;
+  padding: 5px 60px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  font-weight:500;
+  border-radius: 10px;
+
+}
+.text-home h1{
+  font-size: 60px;
+  letter-spacing: 6px;
+
+margin: 50px;
+font-weight: 200;
+color: black;
+
+
+}
+
+
+
+.color-back{
+
+  display: flex;
+  justify-content: space-around
+}
+.navbar-brand {
+  
+  font-size: 25px;
+}
+.All-P{
+margin-left:120px;
+margin-top: 25px;}
+hr{
+  width: 80%;
+margin: auto;
+  display: flex;
+  
+}
+.rating {
+	display: flex;
+  align-items: start;
+
+
+}
+
+.star {
+	width: 1rem;
+	height: 1rem;
+	position: relative;
+
+}
+
+.starEmpty,
+.starFull {
+	font-size: 1rem;
+	position: absolute;
+	overflow: hidden;
+
+}
+/* Navbar */
+.div{
+  display:inline-flex;
+
+ 
+}
+.cart{
+  width: 150px;
+  color: white;
+  border-radius: 15px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-right:20px ;
+  background: none;
+  padding-left:20px ;
+  border: 2px solid #FFC727;
+  background: #FFC727;
+  
+}
+.Done-section{
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 90%;
+padding: 20px;
+margin: 20px;
+
+}
+.done-all{
+ width: 40%; 
+  background: #eee;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 50px;
+
+
+}
+.done-icon{
+  font-size: 70px;
+  color: #88f563;
+}
+.done{
+  border-radius: 50%;
+  border: #88f563 5px solid;
+  width: 25vh;
+
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.t{
+  color: #FFC727;
+}
+.item-size{
+  display: flex;
+}
+.sizeall{
+  padding: 20px;
+}
+.hover:hover{
+  background: #FFC727;
+  color: white;
+}
+.hover:focus{
+  background: #FFC727;
+  color: white;
+}
+.item{
+  font-size: 25px;
+}
+.Description{
+  text-decoration: underline;
+}
+.cart-b{
+  width: 50px;
+  color: #FFC727;
+  border-radius: 15px;
+padding: 10px;
+  background: none;
+ 
+  
+ 
+  border: 2px solid #FFC727;
+}
+.cart-button{
+  display: flex;
+  justify-content: end;
+}
+.bu{
+  color: #FFC727;
+   cursor: pointer;
+ 
+ }
+ .buttn{
+  display: flex;
+  justify-content: space-between; 
+ }
+.text{
+  text-decoration: line-through;
+  color: gray; 
+  font-size: 13px;
+}
+.b ,
+.bt  
+{
+  text-decoration: none;
+  color:black;
+}
+.bt:hover{
+  color: #FFC727;
+  border: 2px solid #FFC727;
+}
+.b:hover 
+{
+  text-decoration: none;
+  color:#FFC727;
+}
+.b:focus{
+  color: #FFC727; 
+}
+.checkout{
+  width: 300px;
+  text-align: center;
+  color: #FFC727;
+  border-radius: 15px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-right:10px ;
+  background: none;
+  padding-left:10px ;
+ text-decoration: none;
+  border: 2px solid #FFC727;
+}
+footer{
+  background: #eee;
+  height: 40vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.icons{
+  font-size: 40px;
+  
+}
+.Follow{
+  justify-content: center;
+  display: flex;
+}
+
+.bt{
+  color:black;
+    text-decoration: none;
+  border:2px solid black;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.bt:focus{
+  color: #FFC727;
+  border:2px solid #FFC727;
+}
+/* Card */
+.card{
+  transition: all 0.5s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Product */
+.product img {
+  transition: all 0.5s ease;
+}
+.product img:hover{
+  transform: scale(1.1);
+}
+.user-icons{
+  display:grid;
+  grid-template-columns: auto;
+
+}
+.Usres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.Do-account{
+  display: inline-flex;
+}
+.icons-u{
+  background: #eee;
+display: flex;
+align-items: center;
+width: 320px;
+height: 50px;
+margin: 20px;
+border-radius: 5px;
+border:rgba(0, 0, 0, 0.205) 1px solid;
+
+
+position: relative;
+}
+.chenge-User{
+  width: 314px;
+height: 350px;
+margin-left: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display:grid;
+grid-template-columns: auto;
+}
+.edit{
+  position: relative;
+  width: 70px;
+height: 70px;
+top: -100px;
+left: 220px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+  border-radius: 50%;
+  background: #FFC727;
+}
+.user-Border{
+  border: 1px #FFC727 solid;
+border-radius: 50%;
+padding: 30px;
+margin: 20px;
+
+
+}
+.i-u{
+  font-size: 200px;
+}
+.i-e{
+  font-size: 50px;
+}
+.FI{
+  color: #FFC727;
+}
+.icons-u p{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+ 
+}
+.or{
+  border: #eee 2px solid;
+  height: 1px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+}
+.bt-login{
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+}
+.login{
+align-items: center;
+justify-content: center;
+display: grid;
+margin: 20px;
+text-align: center;
+}
+.cartp{
+  color: #FFC727;
+  font-size: 70px;
+
+
+
+}
+.cart-pl{
+  background: #eee;
+border-radius: 50%;
+padding: 20px;
+}
+.text-lo{
+  font-size: 30px;
+  color: black;
+}
+.or-text{
+  position: relative;
+  bottom: 20px;
+background: white;
+border: 1px solid white;
+border-radius: 50%;
+  font-size: 22px;
+width: 10px;
+height: 10px;
+}
+.g-f{
+  display: flex;
+  justify-content: center;
+align-items: center;
+text-align: center;
+margin: 20px;
+
+}
+.Do-account{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+
+}
+.button-s{
+  background: none;
+  border: none;
+  color: #FFC727;
+ 
+}
+
+.Forget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+
+
+}
+.otp{
+  width: 70px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  height: 70px;
+  font-size: 25px;
+  text-align: center;
+}
+.search{
+  width: 50%;
+  height: 50px;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 40px;
+  
+}
+.search-l{
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 40px;
+}
+.Password{
+  height: 25px;
+  width: 25px;
+  position: relative;
+bottom: 5px;
+left: 35px;
+}
+.f-t{
+  width: 60%;
+  margin: 20px;
+
+display: block;
+}
+.f-i{
+  width: 50%;
+}
+.f-i img{
+  width: 100%;
+}
